@@ -1,0 +1,23 @@
+h1 {
+  border-bottom: 2px solid #000; padding-bottom:3px; 
+}
+
+h2 {
+  border-left: 10px solid #009FDA;
+  padding-left: 1rem;
+}
+
+h3 {
+  display:inline-block;
+  border-bottom: 5px solid #009FDA;
+}
+
+h4::before {
+  color: #009FDA;
+  content: "◀ ";
+}
+
+h5 {
+  margin-top: 5px;
+  text-decoration: underline solid #666666;
+}

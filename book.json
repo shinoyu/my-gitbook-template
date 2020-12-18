@@ -1,0 +1,36 @@
+
+{
+  "root": "src",
+  "language": "ja",
+  "title": "title",
+  "description": "description",
+  "plugins": [
+    "-sharing",
+    "hide-published-with",
+    "anchors",
+    "-numbered-headings",
+    "collapsible-chapters",
+    "uml",
+    "page-treeview"
+  ],
+  "pluginsConfig": {
+    "page-treeview": {
+        "copyright": "",
+        "minHeaderCount": "2",
+        "minHeaderDeep": "2"
+    }
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "paperSize": "a4",
+    "fontSize": 11,
+    "margin": {
+      "right": 0,
+      "left": 0,
+      "top": 0,
+      "bottom": 0
+    }
+  } 
+}
+
+

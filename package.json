@@ -1,0 +1,25 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-collapsible-chapters": "^0.1.8",
+    "gitbook-plugin-hide-published-with": "^1.0.3",
+    "gitbook-plugin-include": "^0.1.0",
+    "gitbook-plugin-include-html": "^0.2.0",
+    "gitbook-plugin-numbered-headings": "^1.1.1",
+    "gitbook-plugin-page-treeview": "^3.0.1",
+    "gitbook-plugin-uml": "^1.0.3",
+    "svgexport": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "gitbook serve",
+    "build": "gitbook pdf"
+  },
+  "author": "",
+  "license": ""
+}
